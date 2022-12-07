@@ -3,7 +3,10 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
+  "homepage": "https://valmojr.github.io/react-github-profile-finder",
   "scripts": {
+    "predeploy": "npm run build",
+    "deploy": "gh-pages -d build",
     "start": "vite --host",
     "dev": "vite --host",
     "jestI": "jest --init",
@@ -30,6 +33,7 @@
     "@vitejs/plugin-react": "^2.2.0",
     "axios-mock-adapter": "^1.21.2",
     "dom": "^0.0.3",
+    "gh-pages": "^4.0.0",
     "jest": "^29.3.1",
     "jest-environment-jsdom": "^29.3.1",
     "jest-environment-node": "^29.3.1",
