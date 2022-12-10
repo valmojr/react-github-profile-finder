@@ -14,6 +14,7 @@ function App() {
       <MainFrame>
           <Routes>
             <Route path='/' element={<SearchFrame/>} />
+            <Route path='/react-github-profile-finder' element={<SearchFrame/>} />
             <Route path='/search-profile/:user' element={<ResultedProfilesFrame/>} />
             <Route path='/detailed-profile/:user' element={<DetailedProfileFrame/>} />
             <Route path='*' element={<Error/>} />
