@@ -3,7 +3,7 @@ import {Link} from 'react-router-dom';
 export default () => {
     return (
         <NavBarFrameStyled data-testid='NavBarFrame'>
-            <Link to='/' data-testid='home-button-link-id'>
+            <Link to='/react-github-profile-finder' data-testid='home-button-link-id'>
                 <NavBarButtonStyled
                     initial = {{
                         width: '90px',

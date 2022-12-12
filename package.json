@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://valmojr.github.io/react-github-profile-finder",
+  "homepage": "https://valmojr.github.io/react-github-profile-finder/",
   "scripts": {
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build",
